@@ -1,0 +1,104 @@
+body {
+    background: #96a396;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.area-do-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 39rem;
+}
+.area-do-formulario .titulo{
+    font-size: 30px;
+    color: #576657;
+}
+.campo .nome-titulo{
+    font-size: 17px;
+    color: #576657;
+}
+
+.introducao {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.introducao img {
+    position: absolute;
+    right: 1rem;
+}
+
+.titulo {
+    font-size: 1.9rem;
+    padding: 0%;
+}
+
+
+
+hr {
+    width:95%;
+}
+
+
+.campo{     /*margem do input do usuario*/
+
+    margin: 10px;
+    font-size: 15px;
+    
+}
+.campo.tamanho{
+    margin: 6%;
+}
+.resposta{
+    /*comprimento do input do usuario*/
+    width: 500px;
+}
+
+ a {
+    color:#576657; 
+    text-decoration: none;
+}
+.botao1{
+      
+    float: left;
+    margin: 5%;
+    width: 25%;
+    margin-left: 17px;
+    border-radius: 10rem;
+    font-size: 0.89rem;
+    background-color: #d8ddd8;
+    
+}
+.botao2{
+      
+    float: left;
+    margin: 5%;
+    width: 25%;
+    margin-left: 17px;
+    border-radius: 10rem;
+    font-size: 0.89rem;
+    background-color: #d8ddd8;
+    
+}
+.botao3{
+      
+    float: left;
+    margin: 5%;
+    width: 25%;
+    margin-left: 17px;
+    border-radius: 10rem;
+    font-size: 0.89rem;
+    background-color: #d8ddd8;
+}
